@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #DAF7A6 ;
+}
+.todo-heading{
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 350%;
+    margin-top: 6%;
+}
+.todoname{
+    color: #BC243C;
+}
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.input{
+    width: 25rem;
+    font-size: x-large;
+    border-radius: 30px;
+    border: 2px solid black;
+    outline: none;
+    padding: .7%;
+}
+.add-button{
+    font-size: x-large;
+    border-radius: 30px;
+    border: 2px solid black;
+    outline: none;
+    padding: .5%;
+    margin: .5%;
+    background-color:#F0B27A ;
+}
+.add-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.created-div{
+    border-bottom: 4px black solid;
+    background-color: #17A589 ;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+
+.created-input{
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.created-edit{
+    outline: none;
+    border: none;
+    background: none;
+     font-size: 1.4rem;
+     cursor: pointer;
+}
+
+.created-remove{
+    outline: none;
+    border: none;
+    background: none;
+   font-size: 1.4rem;
+   cursor: pointer;
+   align-items: center;
+}
+
